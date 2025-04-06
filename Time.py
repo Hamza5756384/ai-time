@@ -263,3 +263,6 @@ def time_consultation():
         response=response,
         timestamp=timestamp
     )
+    
+if __name__ == "__main__":
+    app.run(debug=True)
